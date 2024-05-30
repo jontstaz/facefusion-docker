@@ -3,7 +3,7 @@ name: Build and Publish Docker Images
 on:
   push:
     branches:
-      - main  # Adjust branch as needed
+      - master  # Adjust branch as needed
 
 jobs:
   build-and-publish:
